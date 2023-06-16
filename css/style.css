@@ -32,6 +32,7 @@ body{
 .navbar .logo img{
     height: 100px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    animation:backwards;
 }
 
 .navbar .logo img:hover{

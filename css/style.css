@@ -35,10 +35,12 @@ body{
     animation:backwards;
 }
 
-.navbar .logo img:hover{
-box-shadow: none;
-height: 100px;
+
+.navbar .logo img:active{
+    box-shadow: none;
+    height: 100px;
 }
+
 
 .navbar .menu li{
 list-style:none ;

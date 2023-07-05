@@ -1,6 +1,78 @@
+/*
+-- #30142b
+-- #a12727
+-- rgba(0,0,0,.5)
+--  #fff
+*/
+
 html {
   height: 100%;
 }
+/*  Header */
+
+.menu-btn{
+  color: #424144;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+.navbar{
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  z-index: 999;
+  background: linear-gradient( #a12727, #30142b);
+  box-shadow: 0 0 14px rgba(0,0,0,.5);
+}
+
+.navbar .logo img{
+  height: 100px;
+  box-shadow: 0 0 15px rgba(0,0,0,.5);
+  animation:backwards;
+}
+
+
+.navbar .logo img:active{
+  box-shadow: none;
+  height: 100px;
+}
+
+
+.navbar .menu li{
+list-style:none ;
+display: inline-block;
+
+}
+
+.navbar .menu li a{
+  display: block;
+  margin-left: 20px;
+  color:#a12727;
+  border-bottom:4px solid transparent;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.navbar .menu li .active{
+  border-bottom: 4px solid#30142b;
+
+}
+
+
+.navbar .menu li a i{
+  color: #f63e4e;
+
+}
+
+.navbar .menu li a:hover{
+  border-bottom: 4px solid#30142b;
+}
+/* main */
 body {
   margin:0;
   padding:0;
